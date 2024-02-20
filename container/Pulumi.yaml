@@ -1,0 +1,7 @@
+name: container-azure-csharp2
+runtime: dotnet
+description: A C# program to deploy a containerized service on Azure
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: container-azure-csharp
