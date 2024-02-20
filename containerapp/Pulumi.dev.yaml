@@ -1,0 +1,7 @@
+config:
+  azure-native:location: WestUS
+  container-azure-csharp:appPath: app
+  container-azure-csharp:containerPort: "80"
+  container-azure-csharp:cpu: "1"
+  container-azure-csharp:memory: "2"
+  pulumi:template: container-azure-csharp
